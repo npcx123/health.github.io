@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: antiquewhite;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        /* 头部 */
+        .head {
+            margin: 0 auto;
+            width: 1270px;
+            height: 500px;
+            background-color: rgb(168, 192, 145);
+        }
+
+        .head img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* 主体部分 */
+        .body {
+            width: 100%;
+            height: 2000px;
+            /* background-color: #F7F5CE; */
+        }
+
+        /* 总介绍 */
+        .introduce_head {
+            margin-top: 10px;
+            margin-left: 55px;
+            width: 200px;
+            border-bottom: 1px solid rgb(168, 192, 145);
+        }
+
+        .introduce {
+            margin: 10px auto;
+            width: 1215px;
+            height: 300px;
+            background-color: rgb(229, 211, 170);
+            border-radius: 5px;
+            box-shadow: 10px 10px 7px -3px rgba(245, 207, 173, .6);
+        }
+
+        .introduce .pic1 {
+            float: left;
+            margin: 5px 7px;
+            /* margin-right: 10px; */
+            width: 500px;
+            height: 300px;
+        }
+
+        .pic1 img {
+            width: 480px;
+            height: 290px;
+        }
+
+        /* 功能介绍 */
+        /* 运动 */
+        .motion_head {
+            margin-top: 10px;
+            margin-left: 55px;
+            width: 200px;
+            border-bottom: 1px solid rgb(168, 192, 145);
+        }
+
+        .motion ul {
+            width: 1245px;
+            margin: 10px auto;
+        }
+
+        .motion ul li {
+            float: left;
+            margin-left: 15px;
+            margin-top: 15px;
+            width: 600px;
+            height: 220px;
+            background-color: rgb(229, 211, 170);
+            border-radius: 5px;
+            box-shadow: 10px 10px 7px -3px rgba(245, 207, 173, .6);
+            cursor: pointer;
+        }
+
+        .motion .motion_pic {
+            float: left;
+            width: 300px;
+            height: 200px;
+            margin: 10px 7px;
+        }
+
+        .motion img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .motion .power_pic {
+            float: left;
+            width: 300px;
+            height: 200px;
+            margin: 10px 7px;
+        }
+
+        .motion li:hover {
+            box-shadow: 10px 10px 7px -3px rgba(245, 207, 173);
+        }
+
+        /* 睡眠 */
+        .sleep {
+            margin: 10px auto;
+            width: 1215px;
+            height: 275px;
+            background-color: rgb(229, 211, 170);
+            border-radius: 5px;
+            box-shadow: 10px 10px 7px -3px rgba(245, 207, 173, .6);
+            cursor: pointer;
+        }
+
+        .sleep_head {
+            margin-top: 10px;
+            margin-left: 55px;
+            width: 200px;
+            border-bottom: 1px solid rgb(168, 192, 145);
+        }
+
+        .sleep_pic {
+            float: left;
+            width: 300px;
+            height: 245px;
+            margin: 15px 7px;
+        }
+
+        .sleep img {
+            width: 300px;
+            height: 200px;
+        }
+
+        .sleep:hover {
+            box-shadow: 10px 10px 7px -3px rgba(245, 207, 173);
+        }
+
+        /* 卡路里 */
+        .ka_head {
+            margin-top: 10px;
+            margin-left: 55px;
+            width: 200px;
+            border-bottom: 1px solid rgb(168, 192, 145);
+        }
+
+        .ka {
+            margin: 10px auto;
+            width: 1215px;
+            height: 225px;
+            background-color: rgb(229, 211, 170);
+            border-radius: 5px;
+            box-shadow: 10px 10px 7px -3px rgba(245, 207, 173, .6);
+            cursor: pointer;
+        }
+
+        .ka_pic {
+            float: left;
+            width: 300px;
+            height: 200px;
+            margin: 10px 7px;
+        }
+
+        .ka_pic img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .ka:hover {
+            box-shadow: 10px 10px 7px -3px rgba(245, 207, 173);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="head">
+        <img src="image/head.png" alt="">
+    </div>
+    <div class="body">
+        <!-- 总介绍 -->
+        <div class="introduce_head">
+            <h1>轻生活</h1>
+        </div>
+        <div class="introduce">
+            <div class="pic1">
+                <img src="image/tu1.png" alt="">
+            </div>
+            <p>所谓“轻生活”，讲究的是一种“丢掉”的观念，
+                也就是把一切简化到最简单的境界，
+                它倡导的是一种生活态度，
+                即以轻松、愉快、无负担的心态生活。
+                有人这样形容轻生活：它是一种很容易融入的无负担的生活状态，
+                比如素面朝天，健康饮食，多走路少坐车，穿棉布衣服等……
+                其实，“轻”的是一种生活态度，是给自己的生活做一次精简。
+                轻生活主要分为四个方向——轻心，轻体，轻食，轻居，
+                而这四个方向都要经历一些内心的挣扎，甚至必须要改变自己积累多年的习惯，
+                才能展开一种全新的轻生活。</p><br>
+            <p>
+                轻生活不是倡导无为和逃避，生命里总有不可承受的重量，人们要承认压力是人生的一部分，
+                但其中有“好”的压力，也有“坏”的压力。突发的自然灾害，细微的身体变化，都可能衍化成坏的压力。
+                如果正在这种状态下透不过气，
+                何不认真思索压力来源，扔掉一直不敢面对的负累，让身心从内到外都轻盈健康。
+                网上流得一句话：“放开一点，简单一点，单纯一点；集三点，就会开心一点。轻生活不是贫穷，开心就是富有。
+                这是一种富裕甚至温饱之后的悠休减负，所以这样的新生活只是在城里风行，就好像“同情”一词，不是穷人或者地位低下的人可以随便做它的主语，那是另外一种意义的奢侈，心灵奢侈。
+            </p><br>
+        </div>
+        <!-- 功能介绍 -->
+        <!-- 运动 -->
+        <div class="motion">
+            <div class="motion_head">
+                <h1>运动</h1>
+            </div>
+            <ul>
+                <li>
+                    <div class="motion_pic">
+                        <img src="image/motionPic.png" alt="">
+                    </div>
+                    <p>有氧运动。<br>每周进行至少 150 分钟的中等强度有氧运动，
+                        或者进行 75 分钟的剧烈有氧运动，
+                        又或者搭配进行中等强度运动和剧烈运动。
+                        指南建议，在一周内分散完成该运动量。
+                        为提供更大的健康益处、帮助减重或保持减重效果，
+                        建议每周至少运动 300 分钟。但是，即使是少量身体活动也有益无害。一天中进行多次短时间运动对健康有益。</p>
+                </li>
+                <li>
+                    <div class="power_pic">
+                        <img src="image/power.jpg" alt="">
+                    </div>
+                    <p>力量训练。<br>每周针对主要肌肉群做至少两次力量训练。每项运动只做一组，采用的重量或阻力水平应使您在重复动作 12 到 15 次后感到肌肉疲劳。</p>
+                </li>
+            </ul>
+        </div>
+        <!-- 睡眠 -->
+        <div class="sleep_head">
+            <h1>睡眠</h1>
+        </div>
+        <div class="sleep">
+            <div class="sleep_pic">
+                <img src="image/sleepPic.png" alt="">
+            </div>
+            <p>成人每天应该保持7到8小时的睡眠。睡不着的话不如试试这些方法：<br>
+                1、放空大脑法<br>
+                在睡前的半个小时里，不玩手机，不看电视，就静静地躺在床上，然后放空大脑，什么都不想，这样会有助于睡眠，因为有时候我们在睡前想太多的话就会难以入睡。<br>
+                2、运动助眠法<br>
+                我们可以在白天做一些运动，这样你的身体就可能感到疲惫，这样也会容易入睡。<br>
+                3、睡前喝一杯牛奶<br>
+                睡前喝一杯牛奶有安神的功效，是有助于睡眠的，不过肠胃不好的人要少喝。<br>
+                4、睡前洗热水澡或泡脚<br>
+                睡前洗热水澡或泡脚可以缓解疲劳，让我们以一种轻松舒适的状态入眠，这样也有助于高效睡眠。<br>
+                5、创造良好的睡眠环境<br>
+                在准备睡觉的时候，拉上窗帘，保持室内漆黑，这样有利于快速的睡着，另外，根据你的睡眠习惯，把周围的一切调整到你认为最舒适的状态，比如说穿上舒适的睡衣等等，这样有助于你的高效睡眠。
+            </p>
+        </div>
+        <!-- 卡路里 -->
+        <div class="ka_head">
+            <h1>卡路里</h1>
+        </div>
+        <div class="ka">
+            <div class="ka_pic">
+                <img src="image/food.png" alt="">
+            </div>
+            <p>
+                卡路里计算公式：<br>
+                卡路里（Kcal）=食物热量（J）/4184</p><br>
+            <p>
+                我国成年人（18-49岁）轻身体活动者能量需要量男性为2250大卡，女性为1800大卡。
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
